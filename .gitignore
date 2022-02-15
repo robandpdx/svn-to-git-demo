@@ -1,0 +1,5 @@
+local-git
+local-private-svn
+svn_users.txt
+authors.txt
+ldap_users.txt
