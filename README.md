@@ -32,7 +32,7 @@
     ```
     ./svnSync.sh
     ```
-1. When you are ready to cutover, make the tags, and push it up to stash.
+1. When you are ready to cutover, make the tags, and push it up to github.
 
     ```
     ./make_tags.sh
