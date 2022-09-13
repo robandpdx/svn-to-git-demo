@@ -20,7 +20,7 @@
 1. mirror your svn repo…
 
     ```
-    ./mirror_svn_sh
+    ./mirror_svn.sh
     ```
 1. initialize a local git repo, and convert to git…
 
