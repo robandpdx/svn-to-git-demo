@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### Edit this...
-export SVN_REPO=
+export SVN_REPO=https://svn.code.sf.net/p/circuit/code
 
 ### Don't edit below
 export BASE_DIR=`pwd`

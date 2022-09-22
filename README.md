@@ -1,4 +1,6 @@
-# Converting SVN repot to git
+# Converting SVN repo to git
+
+This project is meant to demo converting an svn repo to git. A good svn repo to use is [this one](https://sourceforge.net/p/circuit/code/HEAD/tree/).
 
 1. clone this repo
 
@@ -32,9 +34,14 @@
     ```
     ./svnSync.sh
     ```
-1. When you are ready to cutover, make the tags, and push it up to github.
+1. When you are ready to cutover, add the new origin, push `main` and other branches and tags to github.
 
     ```
-    ./make_tags.sh
-    git remote add origin ssh://git@github.com:myuser/myrepo.git
-    git push -u origin master
+    cd local-git
+    git remote add origin GITHUB_REPOSITORY_URL.git
+    git push -u origin main
+    cd ..
+    ./push_branches.sh
+    ./push_tags.sh
+    ```
+    
