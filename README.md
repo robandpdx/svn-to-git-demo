@@ -1,6 +1,7 @@
 # Converting SVN repo to git
 
-This project is meant to demo converting an svn repo to git. A good svn repo to use is [this one](https://sourceforge.net/p/circuit/code/HEAD/tree/).
+This project is meant to demo converting an svn repo to git. A good svn repo to use is [this one](https://sourceforge.net/p/circuit/code/HEAD/tree/).  
+**NOTE**: This should all be done on a linux machine, preferably, because Mac and Windows both do not have a case sensitive filesystem by default.  
 
 1. clone this repo
 
