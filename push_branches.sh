@@ -10,4 +10,4 @@ for REF in $(git for-each-ref --format='%(refname)' refs/remotes/svn/ | grep -v 
         git push -u origin "$REF":refs/heads/$BRANCH_NAME
     fi
 done
-cd ..``
+cd ..
